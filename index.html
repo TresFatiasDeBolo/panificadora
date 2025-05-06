@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panifications</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+        <h1>Controle de Estoque - Panificadora Três Pães</h1>
+
+        <!--comentario :)-->
+        <form id="form-produto">
+            <input type="text" id="input-nome" placeholder="Nome do produto" required>
+            <input type="number" id="input-quantidade" placeholder="Quantidade de produtos" required>
+            <input type="text" id="input-unidade" placeholder="Unidade (ex: KG, unidade)" required>
+            <input type="text" id="input-categoria" placeholder="Categoria (ex: pão, doce)">
+            <button type="submit">Adicionar produto</button>
+        </form>
+
+
+        <input type="text" id="input-busca" placeholder="Buscar produto...">
+
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Quantidade</th>
+                    <th>Unidade</th>
+                    <th>Categoria</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-produtos">
+                <!--PRODUTOS SERÃO INSERIDOS AQUI PELO JAVASCRIPT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+            </tbody>
+        </table>
+</body>
+</html>
